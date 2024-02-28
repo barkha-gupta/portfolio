@@ -4,6 +4,7 @@ import p2 from "../assets/project2.png";
 import p3 from "../assets/project3.png";
 import p5 from "../assets/project5.png";
 import p6 from "../assets/project6.png";
+import p7 from "../assets/project.png";
 
 export default function Work() {
   return (
@@ -24,11 +25,8 @@ export default function Work() {
           <img src={p1} alt="" className="portfolio__img" />
         </a>
 
-        <a
-          href="https://contacts-manager-fullstack.netlify.app/"
-          className="portfolio__item"
-        >
-          <img src={p2} alt="" className="portfolio__img" />
+        <a href="https://paytm-app.netlify.app/" className="portfolio__item">
+          <img src={p7} alt="" className="portfolio__img" />
         </a>
 
         <a
@@ -43,6 +41,13 @@ export default function Work() {
           className="portfolio__item"
         >
           <img src={p5} alt="" className="portfolio__img" />
+        </a>
+
+        <a
+          href="https://contacts-manager-fullstack.netlify.app/"
+          className="portfolio__item"
+        >
+          <img src={p2} alt="" className="portfolio__img" />
         </a>
       </div>
     </section>
