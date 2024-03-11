@@ -25,7 +25,7 @@ export default function Work() {
           <img src={p1} alt="" className="portfolio__img" />
         </a>
 
-        <a href="https://paytm-app.netlify.app/" className="portfolio__item">
+        <a href="https://easypaynow.netlify.app/" className="portfolio__item">
           <img src={p7} alt="" className="portfolio__img" />
         </a>
 
